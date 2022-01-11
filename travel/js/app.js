@@ -426,7 +426,41 @@ if (document.querySelector(".luxury__body")) {
 		}
 	});
 }
-
+//========================================================================================================================================================
+if (document.querySelector(".slider-reviewss__body")) {
+	new Swiper(".slider-reviewss__body", {
+		slidesPerView: 1.7,
+		observer: true,
+		observeParents: true,
+		spaceBetween: 60,
+		speed: 800,
+		loop:true,
+		pagination: {
+			el:'.pagination-reviewss',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.slider-button-reviewss',
+			prevEl: '.slider-button-reviewss'
+		},
+		breakpoints: {
+			320:{
+				spaceBetween: 20,
+				slidesPerView: 1,
+			},
+			768:{
+				spaceBetween: 20,
+				slidesPerView: 1.7,
+			},
+			998:{
+				spaceBetween: 20,
+			},
+			1300:{
+				spaceBetween: 60,
+			},
+		}
+	});
+}
 
 // Dynamic Adapt v.1
 // HTML data-da="where(uniq class name),when(breakpoint),position(digi)"
