@@ -2318,14 +2318,38 @@ body.ie ._ibg img {
   border-radius: 10px;
 }
 
-._no-webp .slide-experiences__body_africa{
+._no-webp .slide-experiences__body_01{
   background: url("../img/home/experiences/02.png") 0 0/cover no-repeat; }
 
-._no-webp .slide-experiences__body_croatia{
+._no-webp .slide-experiences__body_02{
   background: url("../img/home/experiences/03.png") 0 0/cover no-repeat; }
 
-._no-webp .slide-experiences__body_jordan{
+._no-webp .slide-experiences__body_03{
   background: url("../img/home/experiences/04.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_05{
+  background: url("../img/home/experiences/05.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_06{
+  background: url("../img/home/experiences/06.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_07{
+  background: url("../img/home/experiences/07.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_08{
+  background: url("../img/home/experiences/08.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_09{
+  background: url("../img/home/experiences/09.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_10{
+  background: url("../img/home/experiences/10.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_11{
+  background: url("../img/home/experiences/11.png") 0 0/cover no-repeat; }
+
+._no-webp .slide-experiences__body_12{
+  background: url("../img/home/experiences/12.png") 0 0/cover no-repeat; }
 
 .slide-experiences__content {
   display: -webkit-box;
@@ -4703,11 +4727,27 @@ body.ie ._ibg img {
 
 ._webp .slide-experiences__body{ background: url(../img/home/experiences/01.webp) 0 0/cover no-repeat; }
 
-._webp .slide-experiences__body_africa{ background: url(../img/home/experiences/02.webp) 0 0/cover no-repeat; }
+._webp .slide-experiences__body_01{ background: url(../img/home/experiences/02.webp) 0 0/cover no-repeat; }
 
-._webp .slide-experiences__body_croatia{ background: url(../img/home/experiences/03.webp) 0 0/cover no-repeat; }
+._webp .slide-experiences__body_02{ background: url(../img/home/experiences/03.webp) 0 0/cover no-repeat; }
 
-._webp .slide-experiences__body_jordan{ background: url(../img/home/experiences/04.webp) 0 0/cover no-repeat; }
+._webp .slide-experiences__body_03{ background: url(../img/home/experiences/04.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_05{ background: url(../img/home/experiences/05.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_06{ background: url(../img/home/experiences/06.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_07{ background: url(../img/home/experiences/07.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_08{ background: url(../img/home/experiences/08.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_09{ background: url(../img/home/experiences/09.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_10{ background: url(../img/home/experiences/10.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_11{ background: url(../img/home/experiences/11.webp) 0 0/cover no-repeat; }
+
+._webp .slide-experiences__body_12{ background: url(../img/home/experiences/12.webp) 0 0/cover no-repeat; }
 
 ._webp .luxury{ background-image: url(../img/home/luxury/bg.webp); }
 
