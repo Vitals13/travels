@@ -2886,13 +2886,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 100%;
   z-index: 100;
   background-color: #e2d3ce;
+  /* @media (min-width: 1010px) {
+  	background: url("../img/home/header/bg_01.png") 0px 1px / cover no-repeat;
+  } */
 }
 
 .header__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 25px 40px 0px 40px;
+  padding: 15px 40px 15px 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -3606,7 +3609,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-image: url("../img/home/luxury/bg.png"); }
 
 .luxury {
-  margin-bottom: 100px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
@@ -3762,6 +3764,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .luxury-book {
+  padding: 40px 0px 0px 0px;
   /* // .luxury-book__dec
   &__dec {
   	position: absolute;
@@ -4712,6 +4715,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .contact {
   position: relative;
   z-index: 3;
+  padding: 50px 0px 0px 0px;
 }
 
 .contact__container {
@@ -5804,11 +5808,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 
-@media (min-width: 1010px) {
-  ._no-webp .header{
-    background: url("../img/home/header/bg_01.png") 0px 1px/cover no-repeat; }
-}
-
 @media (min-width: 1025px) {
   .lg-outer .lg-thumb-item {
     -webkit-transition: border-color 0.25s ease;
@@ -5898,10 +5897,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .luxury {
-    margin-bottom: calc(40px + 60 * ((100vw - 320px) / 824));
-  }
-
-  .luxury {
     padding-top: calc(20px + 50 * ((100vw - 320px) / 824));
   }
 
@@ -5914,7 +5909,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 
   .trips {
-    padding-top: calc(50px + 60 * ((100vw - 320px) / 824));
+    padding-top: calc(80px + 30 * ((100vw - 320px) / 824));
   }
 
   .trips {
@@ -7142,8 +7137,3 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 ._webp .lux-packages{ background: url(../img/lux-packages/bg_top.webp) center/cover no-repeat; }
 
 ._webp .main-packages{ background: url(../img/lux-packages/bg_top.webp) center/cover no-repeat; }
-
-@media (min-width: 1010px){
-
-  ._webp .header{ background: url(../img/home/header/bg_01.webp) 0px 1px/cover no-repeat; }
-}
